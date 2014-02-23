@@ -1,4 +1,4 @@
-skyDew
+blueMocha
 ======
 
 Simple blog design for a friend
