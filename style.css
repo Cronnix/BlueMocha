@@ -1,0 +1,137 @@
+html {
+	background-color: #F8F8F8;
+}
+
+html, body, #wrapper {
+	height: 100%;
+	margin: 0px;
+}
+
+h1, h2, h3 {
+	font-family: 'Droid Serif', serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: #63707A;
+}
+
+a:hover{
+	color: #69AADF;
+}
+
+#links {
+	margin: 40px auto;
+	display: table;
+}
+
+#profilepic {
+	width: 200px;
+	height: auto;
+	margin: auto;
+	display: block; 
+}
+#sidecontent {
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	width: 300px;
+
+	padding: 20px;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+
+	background-color: #8098AB;
+}
+
+#sidecontent p, #sidecontent h1{
+	color: white;
+}
+
+#contentwrap {
+	margin-right: 300px;
+	padding: 20px;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#content {
+	width: 800px;
+	margin: auto;
+}
+
+.posthead {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.postdate, .postcat {
+	margin-bottom: 0px;
+	opacity: 0.4;
+	margin-top: 30px;
+}
+
+.postcat {
+	margin-right: 5px;
+	font-size: 1.2em;
+}
+
+.url img{
+	margin: auto;
+	margin-right: 10px;
+	width: 50px;
+	height: auto;
+}
+
+.url {
+	display: inline-block;
+}
+
+.bhead p, .bhead a{
+	display: inline-block;
+}
+
+.cpush:after, #content:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.bpost {
+	border-bottom: 1px solid #CECECE;
+	padding-bottom: 20px; 
+}
+
+.fulla {
+	text-decoration: none;
+	color: #50585D;
+}
+
+#copyright {
+	position: fixed;
+	bottom: 0;
+	right: 10px;
+	opacity: 0.7;
+}
+
+#older, #newer {
+	margin: 20px 0px 20px;
+}
+
+#older {
+	float:right;
+}
+
+#newer {
+	float: left;
+}
